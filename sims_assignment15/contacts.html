@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <title>Document</title>
+    </head>
+    <body>
+        <nav class="container">
+            <ul>
+                <a href="contacts.html">Contact Page</a></li>
+                <a href="projects.html">Projects Page</a></li>
+                <a href="index.html">Home Page</a></li>
+            </ul>
+        </nav>
+
+        <center>
+            <form action="https://postman-echo.com/post" method="post" class="contact">
+                <label for="username">Username:</label>
+                <input type="username" name="username" placeholder="Username" required id="username">
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Email" required id="email">
+                <label for="bio">Bio:</label>
+                <textarea name="bio" id="bio">Start bio here...</textarea> 
+                <label for="submit">Submit:</label>
+                <input type="submit" name="submit" placeholder="Submit" id="submit">
+            </form>
+        </center>
+        
+        <center>
+            <footer class="social-media">
+                <ion-icon name="logo-twitter"></ion-icon>
+                <a href="https://twitter.com">Twitter</a>
+            
+                <ion-icon name="logo-instagram"></ion-icon>
+                <a href="https://www.instagram.com">Instagram</a>
+            
+                <ion-icon name="logo-reddit"></ion-icon>
+                <a href="https://www.reddit.com">Reddit</a>
+
+                <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            </footer>
+        </center>
+    </body>
+</html>

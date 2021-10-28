@@ -1,0 +1,83 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    text-align: center;
+    border-style: solid;
+    background-color: black;
+    font-size: 25px;
+}
+.container3
+{
+    position: fixed;
+    top: 50px;
+    left: 100px;
+    z-index: 10;
+    font-size: 25px;
+    border-style: solid;
+    background-color: orange;
+}
+
+
+a{
+    color: white;
+}
+a:hover{
+    color: orange;
+}
+.josh{
+    width: 300px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+p#paragraph:first-letter{
+    font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact{
+    text-align: center;
+    background-color: orange;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+
+    border-radius: 15px;
+}
+.bodyone{
+    color:black;
+}
+input#submit:focus{
+    color: orange;
+}
+input#username:focus{
+    color: orange;
+}
+input#email:focus{
+    color: orange;
+}
+input#bio:focus{
+    color: orange;
+}
+input#username{
+    margin: auto;
+    padding: 5px;
+}
+input#email{
+    margin: auto;
+    padding: 5px;
+}
+input#bio{
+    margin: auto;
+    padding: 10px;
+}
+input#submit{
+    margin: auto;
+    padding: 5px;
+}
+.social-media{
+    font-size: 30px;
+    color: orange;
+}
+    
+
