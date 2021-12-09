@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="tic.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id="Heading">
+            <h1>Tic-Tac-Toe</h1>
+        </div>
+        <div id="Intro">
+            <h2>Instructions</h2>
+            <ul>
+                <li>Hello World, welcome to Tic-Tac-Toe</li>
+                <li>Tic-tac-toe is a game where players play against a human and take 
+                    turns marking the spaces in a three-by-
+                    three grid with Xs or Os.</li>
+                <li>The player who places 
+                    three of their X's or O's in a horizontal, vertical, or 
+                    diagonal row is the winner.</li>
+                <li>To start a new game, reset the page.</li>
+            </ul>
+        </div>
+        <div id=startButtons>
+        </div>
+        <div id="Board">
+            <div data-index="1"class=" box border-a" id="border-b"></div>
+            <div data-index="2"class="box border-a" id="border-b"></div>
+            <div data-index="3"class="box" id="border-b"></div>
+            <div data-index="4"class="box border-a" id="border-b"></div>
+            <div data-index="5"class="box border-a" id="border-b"></div>
+            <div data-index="6"class="box" id="border-b"></div>
+            <div data-index="7"class="box border-a"></div>
+            <div data-index="8"class="box border-a"></div>
+            <div data-index="9"class="box"></div>
+            <div id='strike' class="strike"></div>
+        </div>
+        <div id="game-over-area" class="hidden">
+            <h2 id="game-over-text">Winner is X</h2>
+        </div>
+        <script src="tic.js"></script>
+    </body>
+
+</html>
